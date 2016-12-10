@@ -14,9 +14,13 @@ type Rectangle struct {
 }
 
 func main() {
-  input := os.Args[2]
+  input := os.Args[1]
+
   func (c Circle) float64 {
     return Pi*c.radius*c.radius
-}
+  }
+  func (r Rectangle) int {
+    return r.length*r.width
+  }
 
 }
