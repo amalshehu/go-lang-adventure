@@ -10,7 +10,7 @@ type Circle struct {
 }
 
 type Rectangle struct {
-    length, width  int
+    length, width  float64
 }
 
 func main() {
